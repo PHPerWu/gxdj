@@ -1,0 +1,54 @@
+body, td {font-size: 12px;color:#2C3A6B}
+a{color:#2C3A6B;text-decoration:none}
+a:hover{color:#0178FF;text-decoration: none}
+a:link{color:#333333;text-decoration: none}
+
+.tabbg {background-image: url("../images/tab_pic4.png"); }
+ 
+.f2 {
+	font-size: 14px;
+}
+.f1 {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.f3 {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.f4 {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style1 {color: #1F3F89;
+	font-size: 14px;
+	font-weight: bold;
+}
+.font99{
+	font-size:12px;
+        font-weight: bold;
+	color:#ffffff;
+}
+.fontStyle1{
+	font-size:14px;
+	font-weight: bold;
+	letter-spacing:1px;
+	{ float:left; color:#093F91; filter:Dropshadow(offx=1,offy=0,color=#F0F6FC) Dropshadow(offx=0,offy=1,color=#F0F6FC) Dropshadow(offx=-1,offy=0,color=#F0F6FC) Dropshadow(offx=0,offy=-1,color=#F0F6FC);}
+	
+.a1{color:#ffffff;text-decoration:none}
+.a1:hover{color:#E9ECF3; text-decoration: none}
+.a1:link{color:#ffffff; text-decoration: none}
+
+.a2{color:#1F3F89;text-decoration:none}
+.a2:hover{color:#3559AB; text-decoration: none}
+.a2:link{color:#1F3F89; text-decoration: none}
+
+.textbox {
+	BORDER-RIGHT: #6289AE 1px solid; BORDER-TOP: #6289AE 1px solid; BACKGROUND: #f3fbfe; BORDER-LEFT: #6289AE 1px solid; WIDTH: 113px; BORDER-BOTTOM: #6289AE 1px solid
+}
+.h1 {
+	line-height: 20px;
+	font-size: 12px;
+}
