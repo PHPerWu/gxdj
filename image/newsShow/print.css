@@ -1,0 +1,5 @@
+﻿body {background-color:#FFF;color:#000;}
+#web-access-toolbar,.header,.navigation,.current-page,.gov-news-meta,.pages-nav,.related-post,.sidebar,.footer{display:none;}
+.container,.main{margin:0;width:100%;padding:0;border:none;}
+.gov-news-title{font-size:20pt;color:#000;}
+.main,.main p{font-size:14pt;line-height:2em;}

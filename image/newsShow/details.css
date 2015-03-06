@@ -1,0 +1,176 @@
+﻿/*
+YUI 3.5.0pr2 (build 4560)
+Copyright 2011 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+/* ============== reset.css ============== */
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select {*font-size:100%;}
+legend {color:#000;}
+/* ============== reset.css ============== */
+
+
+/* ============== base.css ============== */
+h1 {font-size:138.5%;}
+h2 {font-size:123.1%; }
+h3 {font-size:108%;}
+h1,h2,h3 {margin:1em 0;}
+h1,h2,h3,h4,h5,h6,strong {font-weight:bold; }
+abbr,acronym {border-bottom:1px dotted #000;cursor:help;} 
+em {font-style:italic;}
+blockquote,ul,ol,dl {margin:1em;}
+ol,ul,dl {margin-left:2em;}
+ol {list-style: decimal outside;	}
+ul {list-style: disc outside;}
+dl dd {margin-left:1em;}
+th,td {padding:.5em;}
+th {font-weight:bold;text-align:center;}
+caption {margin-bottom:.5em;text-align:center;}
+p,fieldset,table,pre {margin-bottom:1em;}
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+/* ============== base.css ============== */
+
+
+/* ============== font.css ============== */
+body {font:12px "宋体",arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+select,input,button,textarea {font:99% arial,helvetica,clean,sans-serif;}
+table {font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt {font-family:monospace;*font-size:108%;line-height:100%;}
+a,a:link,a:visited{color:#000;text-decoration:none;}
+a:hover{color:#C80000;text-decoration:underline;}
+/* ============== font.css ============== */
+
+
+.wrap{margin:0 auto;width:960px;background-color:#FFF;clear:both;overflow:hidden;}
+
+/* Header & Footer*/
+.new_wrap{margin:0 auto;width:960px;background-color:#FFF;font-size:12px;clear:both;overflow:hidden;}
+.new_wrap p{margin:0;}
+.new_wrap a,.new_wrap a:link,.new_wrap a:visited,.new_wrap a:hover{text-decoration:none;}
+.new_wrap a:hover{text-decoration:underline;}
+
+/* =========== Header =========== */
+.header{position:relative;z-index:1;height:138px;background:#FEFEFE url(http://www.hubei.gov.cn/images/home/logo.jpg) 0 0 no-repeat;}
+/* Logo Zone */
+.new_wrap .logo-zone{float:left;width:344px;height:138px;overflow:hidden;}
+.new_wrap .logo{float:left;margin:8px 0 0 26px;text-indent:-9999px;display:inline;overflow:hidden;}
+.new_wrap .logo a{display:block;}
+.new_wrap .logo,.new_wrap .logo a{width:250px;height:70px;}
+.new_wrap .quick-links{float:left;margin:5px 0 0 20px;padding:0;width:270px;height:40px;display:inline;overflow:hidden;}
+.new_wrap .quick-links li{float:left;width:80px;height:20px;line-height:20px;list-style-type:none;text-align:left;padding-left:10px;background:url(http://www.hubei.gov.cn/images/home/red_dot.jpg) 3px 9px no-repeat;overflow:hidden;}
+.new_wrap .quick-links li a:link,.quick-links li a:visited,.quick-links li a:hover{color:#000;}
+/* Logo Zone */
+.new_wrap .tabs-nav{position:absolute;z-index:2;top:5px;right:15px;width:657px;height:128px;overflow:hidden;}
+.new_wrap .tab-md{position:absolute;z-index:3;top:0;left:0;width:561px;height:128px;overflow:hidden;}
+.new_wrap .tab-hd{float:right;margin:0;padding:12px 0 0;width:24px;line-height:16px;height:115px;text-align:center;font-size:13px;color:#818181;cursor:pointer;background:url(http://www.hubei.gov.cn/images/home/buttons_sprites.gif) -345px 0 no-repeat;overflow:hidden;}
+.new_wrap .tab-hd em{font-style:normal;font-weight:bold;color:#7E623D;}
+.new_wrap .tabs-nav .current{background-position:-345px -128px;}
+.new_wrap .tab-cnt{float:left;width:525px;height:114px;padding:5px;border:1px solid #CDCDCD;background-color:#F1F3F5;overflow:hidden;}
+.new_wrap .tab-sub-cate-md{margin:0 auto;width:100%;overflow:hidden;}
+.new_wrap .tab-sub-cate-md h3{margin:0;font-size:12px;color:#C80000;height:23px;font-weight:normal;}
+.new_wrap .tab-sub-cate-md p{margin-bottom:0;width:439px;text-indent:0;}
+.new_wrap .tab-sub-cate-md p a{padding-right:4px;color:#093D72;height:23px;font-size:12px;}
+.new_wrap .tab-sub-cate-md h3,.tab-sub-cate-md p,.tab-sub-cate-md p a{float:left;line-height:23px;white-space:nowrap;}
+.new_wrap .tab-nav-buttons{margin:0 auto;overflow:hidden;}
+.new_wrap .tab-nav-buttons a{float:left;margin:0 11px;width:152px;height:22px;line-height:22px;text-align:center;display:inline;background:url(http://www.hubei.gov.cn/images/home/buttons_sprites.gif) -156px -254px no-repeat;overflow:hidden;}
+.new_wrap .zfxx-md{z-index:8;}
+.new_wrap .zwsx-md{z-index:7;left:24px;}
+.new_wrap .zwsx-md h3{width:92px;text-align:right;}
+.new_wrap .zwsx-md h3.yb-hd{width:96px;}
+.new_wrap .zwsx-md p{width:430px;}
+.new_wrap .zwsx-md p.yb-bd{width:426px;}
+.new_wrap .gzcy-md{z-index:6;left:48px;}
+.new_wrap .gzfw-md{z-index:5;left:72px;}
+.new_wrap .lxhb-md{z-index:4;left:96px;}
+.new_wrap .gzfw-md p,.new_wrap .lxhb-md p{width:auto;}
+
+/* =========== Navigation =========== */
+.navigation{position:static;height:72px;}
+.nav-list{margin:0;padding:0 30px;background:#C80000 url(http://www.hubei.gov.cn/images/home/bg.gif) 0 0 repeat-x;height:42px;line-height:42px;overflow:hidden;}
+.nav-list li{float:left;margin:0;padding:0 15px;height:42px;line-height:42px;font-size:14px;font-weight:bold;list-style-type:none;font-family:"微软雅黑","宋体",Arial,Helvetica,sans-serif;overflow:hidden;}
+.nav-list li a,.nav-list li a:link,.nav-list li a:visited,.nav-list li a:hover{float:left;color:#FFF;height:42px;line-height:42px;overflow:hidden;}
+.nav-list li.current a,.nav-list li a:hover{color:#EEBC4B;background:transparent url(http://www.hubei.gov.cn/images/home/nav_list_cur.jpg) 50% 38px no-repeat;text-decoration:none;}
+.sub-channels{margin:0 auto;width:100%;height:30px;line-height:30px;text-align:center;background:url(http://www.hubei.gov.cn/images/home/bg.gif) 0 -42px repeat-x;overflow:hidden;}
+.sub-channels a:link,.sub-channels a:visited,.sub-channels a:hover{color:#000;margin:0 5px;}
+/* =========== Footer =========== */
+.footer {background:#FFF url(http://www.hubei.gov.cn/images/home/bg.gif) 0 -70px repeat-x;border-top: 3px solid #C80000;height: 81px;overflow: hidden;padding-bottom: 5px;}
+.footer a {color: #000;}
+.bottom-nav {float: left;overflow: hidden;padding: 20px;}
+.copyright {float: right;overflow: hidden;padding-right: 20px;text-align: right;width: 500px;}
+.copyright p {height: 16px;margin-bottom: 0;overflow: hidden;padding-top: 10px;}
+
+.hide{display:none;}
+
+/* =========== SideBar =========== */	
+.sidebar{float:right;width:260px;overflow:hidden;}
+.side-md{margin:10px auto 0;overflow:hidden;}
+.side-md h2{margin:0 auto;height:26px;line-height:26px;color:#C00;border-top:1px solid #CCC;padding-left:30px;font-size:14px;background-image:url(http://www.hubei.gov.cn/images/navbg.jpg);overflow:hidden;}
+.side-md ul{margin:10px 5px;}
+.side-md a{color:#093D72;}
+.hot-zw-list{overflow:hidden;}
+.hot-zw-list li{height:23px;line-height:23px;padding-left:10px;background:url(http://www.hubei.gov.cn/images/leaders/dot.jpg) 3px 11px no-repeat;overflow:hidden;}
+.hot-zw-md p{margin:0 auto;overflow:hidden;}
+.hot-zw-md p,.hot-zw-md p img{width:246px;height:46px;}
+.hot-photo-news-md{margin-top:0;}
+.hot-photo-news-md p{margin:0 auto;overflow:hidden;}
+.hot-photo-news-md p,.hot-photo-news-md p img{width:260px;height:158px;}
+.hot-photo-news-md h3{margin:0 auto;height:26px;line-height:26px;border-top:2px solid #FFF;font-size:12px;font-weight:normal;text-align:center;background-image:url(http://www.hubei.gov.cn/images/w_bg_38.png);overflow:hidden;}
+.hot-photo-news-md h3 a{color:#FFF;}
+.hot-open-list{overflow:hidden;}
+.hot-open-list li{float:left;width:113px;height:24px;line-height:24px;text-align:center;background-image:url(http://www.hubei.gov.cn/images/bgli.jpg);border:1px solid #CCC;margin:5px;display:inline;overflow:hidden;}
+.hot-opem-md p{margin:10px auto 0;overflow:hidden;}
+.hot-opem-md p,.hot-opem-md p img{width:248px;height:38px;}
+.side-md .hot-report-list{margin-bottom:0;}
+.tools-links-list{padding-left:1px;overflow:hidden;}
+.tools-links-list li{float:left;margin:5px;width:71px;display:inline;border:1px solid #CCC;text-align:center;height:20px;line-height:20px;background:url(http://www.hubei.gov.cn/images/bgli-1.jpg) repeat-x scroll 0 0 transparent;overflow:hidden;}
+
+.media-player{margin:30px auto;width:600px;height:472px;text-indent:0;clear:both;overflow:hidden;}
+.align-center,p.align-center{text-align:center;}
+
+/* =========== Pages Navigation =========== */
+.pages-nav{margin:0 auto;padding:15px 0;border-top:1px solid #CCC;text-align:center;clear:both;overflow:hidden;}
+.pageControl{margin:0 auto; padding:0;overflow:hidden;}
+.pageControl li{margin:0;padding:0;white-space: nowrap;display:inline; list-style-type:none;}
+.pageControl li a{margin:0 10px; height:21px;font-size: 14px; color: #333;text-decoration:none; line-height:21px;}
+.pageControl li a:hover{text-decoration:underline;}
+.pageControl li.current{margin:0 5px;color:#369;line-height:21px;font-weight:bold;}
+.pageControl li .pageUP{background-image:url(http://www.hubei.gov.cn/images/page_up.gif); width:56px;height:21px;line-height:21px;display:inline-block;vertical-align:middle;overflow:hidden;}
+.pageControl li .pageDOWN{background-image:url(http://www.hubei.gov.cn/images/page_down.gif); width:56px;height:21px;line-height:21px;display:inline-block;vertical-align:middle;overflow:hidden;}
+
+/* =========== Details Common =========== */
+.current-page {background: url("http://www.hubei.gov.cn/images/li-2.jpg") no-repeat scroll 10px 7px transparent;border-bottom: 1px solid #CCCCCC;font-size: 12px;height: 30px;line-height: 30px;overflow: hidden;padding-left: 40px;}
+
+.gov-news-title{margin-top:30px;line-height:30px;font-size:26px;font-weight:bold;color:#003CC8;text-align:center;overflow:hidden;}
+
+.gov-news-meta{margin:20px auto;width:96%;height:24px;line-height:24px;display:block;border-top:1px solid #CCC;border-bottom:1px solid #CCC;text-align:center;font-size:12px;font-style:normal;overflow:hidden;}
+.gov-news-meta span{padding:0 8px;}
+
+.gov-news-post{margin:0 auto;width:92%;padding:10px 0;overflow:hidden;}
+.gov-news-post,.gov-news-post p{font-size:14px;line-height:200%;}
+.gov-news-post p.center{text-align:center;}
+
+/* =========== Details Post =========== */
+.container{margin:10px auto;width:938px;padding:10px;border:1px solid #CCC;}
+.main{float:left;width:657px;padding-right:10px;border-right:1px solid #CCC;overflow:hidden;}
+.side-md .tools-links-list{margin-bottom:0;}
+.related-post{margin:0 auto;width:96%;overflow:hidden;}
+.related-post h2{margin:0 auto;width:100%;height:30px;line-height:30px;font-size:14px;font-weight:bold;overflow:hidden;}
+.related-post-list{margin:10px;}
+.related-post-list li{padding-left:10px;line-height:24px;height:24px;font-size:12px;list-style-type:none;background:#FFF url(http://www.hubei.gov.cn/images/li_1.gif) 3px 11px no-repeat;overflow:hidden;}
+
+/* Back to Top */
+.lnk-backtop:link, .lnk-backtop:visited, .lnk-backtop:hover {line-height:9999px;background: url(http://www.hubei.gov.cn/images/sprites.gif) no-repeat scroll 0 -204px transparent;bottom: 140px;display: none;height: 35px;left: 50%;margin: 0 0 0 490px;outline: medium none;overflow: hidden;position: fixed;_position:absolute;width: 49px;z-index: 3;}
+.lnk-backtop:hover {background-position: -49px -204px;}

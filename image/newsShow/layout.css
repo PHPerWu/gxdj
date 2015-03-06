@@ -1,0 +1,2134 @@
+/*
+ * Authoer: Yaohaixiao
+ * Update: 2014-08-13
+ */
+html {
+    color: #000;
+    background: #FFF
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset, img {
+    border: 0
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ol, ul {
+    list-style: none
+}
+
+caption, th {
+    text-align: left
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+q:before, q:after {
+    content: ''
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+sup {
+    vertical-align: text-top
+}
+
+sub {
+    vertical-align: text-bottom
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit
+}
+
+input, textarea, select { *font-size:
+    100%
+}
+
+legend {
+    color: #000
+}
+
+h1 {
+    font-size: 138.5%
+}
+
+h2 {
+    font-size: 123.1%
+}
+
+h3 {
+    font-size: 108%
+}
+
+h1, h2, h3 {
+    margin: 1em 0
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: bold
+}
+
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+    cursor: help
+}
+
+em {
+    font-style: italic
+}
+
+blockquote, ul, ol, dl {
+    margin: 1em
+}
+
+ol, ul, dl {
+    margin-left: 2em
+}
+
+ol {
+    list-style: decimal outside
+}
+
+ul {
+    list-style: disc outside
+}
+
+dl dd {
+    margin-left: 1em
+}
+
+th, td {
+    padding: .5em
+}
+
+th {
+    font-weight: bold;
+    text-align: center
+}
+
+caption {
+    margin-bottom: .5em;
+    text-align: center
+}
+
+p, fieldset, table, pre {
+    margin-bottom: 1em
+}
+
+input[ type = text], input[ type = password], textarea {
+    width: 12.25em;
+    *width: 11.9em
+}
+
+body {
+    font: 12px "宋体", arial, helvetica, clean, sans-serif;
+    *font-size:small;
+    * font:x-small
+}
+
+select, input, button, textarea {
+    font: 99% arial, helvetica, clean, sans-serif
+}
+
+table {
+    font-size: inherit;
+    font: 100%
+}
+
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height:
+    100%
+}
+
+a, a:link, a:visited {
+    color: #535353;
+    text-decoration: none
+}
+
+a:hover {
+    color: #C80000;
+    text-decoration: underline
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #FFF;
+    clear: both;
+    overflow: hidden
+}
+
+.grid-960 {
+    width: 960px
+}
+
+.grid-700 {
+    width: 700px
+}
+
+.grid-670 {
+    width: 670px
+}
+
+.grid-560 {
+    width: 560px
+}
+
+.grid-500 {
+    width: 500px
+}
+
+.grid-450 {
+    width: 450px
+}
+
+.grid-400 {
+    width: 400px
+}
+
+.grid-420 {
+    width: 420px
+}
+
+.grid-390 {
+    width: 390px
+}
+
+.grid-360 {
+    width: 360px
+}
+
+.grid-370 {
+    width: 370px
+}
+
+.grid-340 {
+    width: 340px
+}
+
+.grid-330 {
+    width: 330px
+}
+
+.grid-320 {
+    width: 320px
+}
+
+.grid-300 {
+    width: 300px
+}
+
+.grid-290 {
+    width: 290px
+}
+
+.grid-280 {
+    width: 280px
+}
+
+.grid-260 {
+    width: 260px
+}
+
+.grid-250 {
+    width: 250px
+}
+
+.grid-240 {
+    width: 240px
+}
+
+.grid-210 {
+    width: 210px
+}
+
+.md, .hd, .bd, .ft {
+    margin: 0;
+    overflow: hidden
+}
+
+.md {
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 1
+}
+
+.hd {
+    height: 38px;
+    line-height: 38px;
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #DDD;
+    overflow: visible
+}
+
+.hd-title {
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+    height: 38px;
+    line-height: 38px;
+    border-right: 1px solid #E0E0E0;
+    border-bottom: 2px solid #C80000
+}
+
+.hd-title, .hd-title a:link, .hd-title a:visited, .hd-title a:hover, .hd-tabs li, .hd-tabs li.current a:link, .hd-tabs li.current a:visited, .hd-tabs li.current a:hover {
+    color: #C80000
+}
+
+.hd-tabs, .hd-tabs li {
+    list-style-type: none
+}
+
+.hd-title, .hd-title a:link, .hd-title a:visited, .hd-title a:hover, .hd-tabs li.current a:link, .hd-tabs li.current a:visited, .hd-tabs li.current a:hover, .hd-tabs a:link, .hd-tabs a:visited, .hd-tabs a:hover {
+    text-decoration: none
+}
+
+.hd-form {
+    float: left;
+    margin: 4px 4px 4px 14px;
+    padding: 0 6px;
+    display: inline;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden
+}
+
+.hd-form label {
+    float: left
+}
+
+.hd-tabs {
+    float: left;
+    margin: 0;
+    overflow: hidden
+}
+
+.hd-tabs li {
+    float: left;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    overflow: hidden
+}
+
+.hd-tabs li.current {
+    height: 38px;
+    line-height: 38px;
+    background-color: #FFF;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    border-bottom: 2px solid #C80000
+}
+
+.hd-tabs li.first {
+    border-left: none
+}
+
+.hd-more {
+    float: right;
+    margin: 0 15px 0 0;
+    display: inline;
+	font-size:12px;
+    overflow: hidden
+}
+
+.hd-more li {
+    float: left;
+    padding: 0 5px;
+    overflow: hidden
+}
+
+.bd {
+    padding: 10px;
+    overflow: hidden;
+    clear: both
+}
+
+.bd ul, .bd-list {
+    margin: 0;
+    overflow: hidden
+}
+
+.bd li {
+    font-size: 12px
+}
+
+.bd-list, .md li {
+    list-style-type: none
+}
+
+.bd-list li {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    background: transparent url(http://www.hubei.gov.cn/images/home2013/home.png) -954px -428px no-repeat;
+    _background: transparent url(http://www.hubei.gov.cn/images/home2013/home.gif) -954px -428px no-repeat;
+    overflow: hidden
+}
+
+.bd-list span {
+    float: right;
+    color: #949494
+}
+
+.bd .bd-more {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 10px;
+    margin: 0;
+    background: none;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden
+}
+
+.slide-md {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0
+}
+
+.slide-md, .slide-bd {
+    margin: 0;
+    width: 558px;
+    overflow: hidden
+}
+
+.slide-hd, .slide-ft {
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 538px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.slide-hd, .slide-hd a:link, .slide-hd a:visited, .slide-hd a:hover {
+    color: #FFF
+}
+
+.slide-ft {
+    z-index: 3;
+    background-color: #000;
+    filter: alpha(opacity = 50);
+    opacity: 0.5
+}
+
+.slide-tabs {
+    background-color: transparent;
+    bottom: 30px;
+    height: 19px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 96px;
+    z-index: 5
+}
+
+.slide-tabs li {
+    list-style-type: none;
+    background: url(http://www.hubei.gov.cn/images/home2013/home.png) no-repeat scroll -934px -507px transparent;
+    _background: url(http://www.hubei.gov.cn/images/home2013/home.gif) no-repeat scroll -934px -507px transparent;
+    color: #FFFFFF;
+    float: left;
+    height: 19px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    width: 24px
+}
+
+.slide-tabs li.current {
+    background: url(http://www.hubei.gov.cn/images/home2013/home.png) no-repeat scroll -910px -507px transparent;
+    _background: url(http://www.hubei.gov.cn/images/home2013/home.gif) no-repeat scroll -910px -507px transparent;
+    width: 24px
+}
+
+.slide-tabs a:link, .slide-tabs a:visited, .slide-tabs a:hover {
+    color: #FFF
+}
+
+.adv-960-banner {
+    width: 960px;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+.top-navigation {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #E0E0E0;
+    height: 30px;
+    line-height: 30px
+}
+
+.top-navigation .wrap {
+    background: none
+}
+
+.top-navigation ul {
+    margin: 0
+}
+
+.top-navigation ul, .top-navigation li {
+    list-style-type: none
+}
+
+.top-lang-nav {
+    float: left;
+    font-weight: bold;
+    overflow: hidden
+}
+
+.top-info-nav {
+    float: right;
+    overflow: hidden
+}
+
+.top-navigation li {
+    float: left;
+    padding: 0 5px
+}
+
+.weather {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    overflow: hidden
+}
+
+.logo {
+    height: 134px;
+    background-image: url(logo.png)
+}
+
+.logo h1 {
+    margin: 27px 0 0 37px;
+    display: inline;
+    text-indent: -9999px
+}
+
+.logo h1, .logo a:link, .logo a:visited, .logo a:hover {
+    float: left;
+    width: 495px;
+    height: 83px;
+    overflow: hidden
+}
+
+.main-navigation {
+    margin-bottom: 10px;
+    height: 70px;
+    position: relative;
+    z-index: 1
+}
+
+.main-channels {
+    margin: 0;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 2px solid #C80000
+}
+
+.main-channels, .main-channels li, .sub-menu {
+    list-style-type: none
+}
+
+.main-channels li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    border-top: 5px solid #FFF;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+	font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    overflow: visible
+}
+
+.main-channels a:link, .main-channels a:visited, .main-channels a:hover {
+    color: #C80000;
+    text-decoration: none
+}
+
+.main-channels li.current {
+    color: #FFF;
+    background-color: #C80000
+}
+
+.main-channels li.current a:link, .main-channels li.current a:visited, .main-channels li.current a:hover {
+    color: #FFF
+}
+
+.sub-menu {
+    position: absolute;
+    z-index: 2;
+    width: 815px;
+    margin: 0;
+    padding: 0 5px;
+    top: 35px;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    text-align: center
+}
+
+.sub-menu li {
+    float: none;
+    display: inline;
+    border-top: none;
+    padding: 0 3px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #000
+}
+
+.main-channels li.current .sub-menu a:link, .main-channels li.current .sub-menu a:visited, .main-channels li.current .sub-menu a:hover {
+    color: #000;
+    text-decoration: none
+}
+
+.main-channels li.current .sub-menu a:hover {
+    color: #C80000;
+    text-decoration: underline
+}
+
+.leaders-menu {
+    left: -90px
+}
+
+.intro-menu {
+    left: -180px
+}
+
+.open-menu {
+    left: -270px
+}
+
+.online-menu {
+    left: -360px
+}
+
+.inter-menu {
+    left: -450px
+}
+
+.tz-menu {
+    left: -540px
+}
+
+.butty-menu {
+    left: -630px
+}
+
+#search, #lnk-gov-cn {
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 5px
+}
+
+input.key {
+    border: 1px solid #CCC;
+    height: 18px;
+    width: 164px;
+    padding: 2px
+}
+
+.key, .button {
+    float: left;
+    margin: 3px 2px;
+    display: inline;
+    overflow: hidden
+}
+
+.button {
+    font-size: 12px;
+    border: none;
+    height: 24px;
+    cursor: pointer;
+    color: #FFF;
+    background: #EE7B00
+}
+
+#lnk-gov-cn {
+    background: #F5F5F5 url(http://www.hubei.gov.cn/images/home2013/home.gif) -939px -465px no-repeat;
+    _background-image: url(http://www.hubei.gov.cn/images/home2013/home.gif);
+    _background-position: 5px 6px;
+    top: 40px;
+    padding-left: 20px;
+    text-align: center;
+    width: 115px;
+    color: #C80000;
+    font-weight: bold
+}
+
+.slide-news {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    border: 1px solid #E0E0E0
+}
+
+.slide-news, .slide-news .slide-bd, .slide-news img {
+    overflow: hidden;
+    width: 498px;
+    height: 354px
+}
+
+.hot-channels-md {
+    margin-bottom: 0
+}
+
+#hot-channels .hot-channels-md .hd {
+    padding: 12px 5px
+}
+
+.hot-channels-md .bd {
+    clear: none
+}
+
+.hot-channels-list li {
+    float: left;
+    margin-left: 0;
+    display: inline;
+    width: 65px;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 78px;
+    overflow: hidden
+}
+
+.hot-channels-list a:link, .hot-channels-list a:visited, .hot-channels-list a:hover {
+    display: block;
+    padding-top: 60px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden
+}
+
+.important-headline{
+	margin:0 auto;
+	height:26px;
+	line-height:26px;
+	font-weight:bold;
+	letter-spacing:1px;
+	overflow:hidden;
+	clear:both;
+	font-size:14px;
+	text-align:center;
+}
+
+.important-headline a:link,.important-headline a:visited,.important-headline a:hover{
+	color:#C80000;
+}
+
+.lnk-leader {
+    background-position: -836px 0
+}
+
+.lnk-mail {
+    background-position: -836px -88px
+}
+
+.lnk-ft {
+    background-position: -836px -176px
+}
+
+.lnk-fbh {
+    background-position: -836px -264px
+}
+
+.lnk-mobile {
+    background-position: -836px -352px
+}
+
+.lnk-weibo {
+    background-position: -836px -440px
+}
+
+.lnk-weixin {
+    background-position: -745px -440px
+}
+
+.yw-md, .zt-md {
+    width: 448px;
+    border: 1px solid #E0E0E0
+}
+
+.yw-md li {
+    font-size: 14px
+}
+
+.zt-list li {
+    float: left;
+    width: 204px
+}
+
+.ftdc-list {
+    float: left;
+    width: 176px;
+    padding: 0 4px;
+    overflow: hidden
+}
+
+.infopen {
+    position: relative;
+    z-index: 2;
+    overflow: visible
+}
+
+#lnk-phone-numbers {
+    padding-left: 25px;
+    background: transparent url(http://www.hubei.gov.cn/images/home2013/home.png) 0 -285px no-repeat;
+    _background: transparent url(http://www.hubei.gov.cn/images/home2013/home.gif) 0 -285px no-repeat
+}
+
+.last-nots-md {
+    width: 318px;
+    border: 1px solid #E0E0E0
+}
+
+.infopen-guid-md {
+    width: 368px;
+    border: 1px solid #E0E0E0
+}
+
+.infopen-guid-list {
+    height: 156px
+}
+
+.infopen-guid-list li {
+    float: left;
+    width: 77px
+}
+
+.lzdt-news-md{
+	width:318px;
+	border:1px solid #E0E0E0;
+}
+
+.lzdt-list{
+	height:174px;
+	overflow:hidden;
+}
+
+.lzdt-news-md .lzdt-list li{
+	height:25px;
+	line-height:25px;
+}
+
+.projects-md {
+    position: relative;
+    z-index: 2;
+    overflow: visible;	
+    width: 368px;
+    border: 1px solid #E0E0E0
+}
+
+.projects-more li {
+    padding-left: 24px;
+    background-repeat: no-repeat
+}
+
+
+.projects-info-list li {
+    float: left;
+	width:164px;
+}
+
+.projects-info-list li.lnk-cy-dw {
+	padding-left:25px;
+	width:149px;
+    background-position: 3px -335px
+}
+
+.projects-info-list li.lnk-cy-ry {
+	padding-left:25px;
+	width:149px;
+    background-position: 3px -374px
+}
+
+.bd .prjects-cities-list {
+    overflow: visible;
+	height:96px;
+}
+
+.prjects-cities-list li {
+    position: relative;
+    z-index: 3;
+    float: left;
+    margin: 4px 5px;
+    _margin: 3px 5px;
+    display: inline;
+    width: 46px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5;
+    overflow: visible;
+    text-align: center
+}
+
+.prjects-cities-list li.current {
+    z-index: 4
+}
+
+.prjects-cities-list a:link, .prjects-cities-list a:visited, .prjects-cities-list a:hover {
+    display: block;
+    width: 46px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-decoration: none
+}
+
+.prjects-cities-list a:hover {
+    color: #FFF;
+    color: #FFF;
+    background-color: #C80000;
+    font-weight: bold
+}
+
+.dropmenu {
+    position: absolute;
+    z-index: 5;
+    margin: 0;
+    top: 24px;
+    left: 0;
+    width: 140px;
+    padding: 5px;
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    -webkit-box-shadow: 0 3px 10px #333;
+    -moz-box-shadow: 0 3px 10px #333;
+    box-shadow: 0 3px 10px #333
+}
+
+.prjects-cities-list .dropmenu li, .prjects-cities-list .dropmenu a:link, .prjects-cities-list .dropmenu a:visited, .prjects-cities-list .dropmenu a:hover {
+    border: none;
+    margin: 0;
+    width: 140px;
+    text-align: center;
+    float: none
+}
+
+.prjects-cities-list .dropmenu a:link, .prjects-cities-list .dropmenu a:visited.prjects-cities-list .dropmenu a:hover {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0
+}
+/*
+.projects-other-links li {
+    float: left;
+    margin: 5px 3px;
+    width: 127.6px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline;
+    overflow: hidden;
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5
+}
+
+.projects-other-links {
+    height: 70px
+}
+*/
+
+.yjsc-list {
+    height: 72px
+}
+
+.yjsc-list li {
+    background: none;
+    float: left;
+    margin: 5px 0 5px 5px;
+    width: 87px;
+    padding-left: 20px;
+    height: 26px;
+    line-height: 26px;
+    background-repeat: no-repeat;
+    display: inline;
+    overflow: hidden
+}
+
+.yjsc-list li.tz-sc {
+    background-position: -336px -65px
+}
+
+.yjsc-list li.ns-sc {
+    background-position: -336px -105px
+}
+
+.yjsc-list li.mq-sc {
+    background-position: -336px -145px
+}
+
+.yjsc-list li.hs-sc {
+    background-position: -336px -185px
+}
+
+.gzfw-bd {
+    padding: 10px 0 0
+}
+
+.bs-more li {
+    padding-left: 24px;
+    background-repeat: no-repeat
+}
+
+.bs-more li.lnk-app {
+    background-position: 3px -405px
+}
+
+.bs-more li.lnk-100 {
+    background-position: 3px -443px
+}
+
+.bs-more li.lnk-center {
+    background-position: 3px -480px
+}
+
+.wsbs-tabs {
+    padding: 0
+}
+
+.wsbs-tabs li {
+    float: left;
+    height: 30px;
+    overflow: hidden
+}
+
+.wsbs-tabs a:link, .wsbs-tabs a:visited, .wsbs-tabs a:hover {
+    color: #C80000;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 15px;
+    text-decoration: none
+}
+
+.wsbs-tabs a:hover, .wsbs-tabs li.current a:link, .wsbs-tabs li.current a:visited, .wsbs-tabs li.current a:hover {
+    background-color: #C80000;
+    color: #FFFFFF
+}
+
+.wsbs-bd ul, .wsbs-bd li, .wsbs-tabs, .wsbs-tabs li {
+    list-style-type: none
+}
+
+.wsbs-service {
+    margin-top: 10px
+}
+
+.wsbs-gzfw {
+    margin-bottom: 10px
+}
+
+.wsbs-gzfw-tabs {
+    margin: 0;
+    overflow: hidden;
+    padding-left: 2px;
+    position: relative;
+    z-index: 2
+}
+
+.wsbs-gzfw-tabs li {
+    float: left;
+    height: 86px;
+    text-align: center;
+    width: 58px
+}
+
+.wsbs-gzfw-tabs a:link, .wsbs-gzfw-tabs a:visited, .wsbs-gzfw-tabs a:hover {
+    color: #757575;
+    float: left;
+    font-size: 12px;
+    padding-top: 44px;
+    text-decoration: none;
+    width: 58px
+}
+
+.wsbs-gzfw-tabs li.current a:link, .wsbs-gzfw-tabs li.current a.wsbs-gzfw-tabs:visited li.current a:hover, .wsbs-gzfw-tabs a:hover {
+    color: #C80000
+}
+
+.wsbs-icon {
+    background-color: transparent;
+    background-repeat: no-repeat
+}
+
+.wsbs-icon1 {
+    background-position: -586px -74px
+}
+
+.wsbs-icon2 {
+    background-position: -587px -145px
+}
+
+.wsbs-icon3 {
+    background-position: -588px -217px
+}
+
+.wsbs-icon4 {
+    background-position: -586px -285px
+}
+
+.wsbs-icon5 {
+    background-position: -588px -358px
+}
+
+.wsbs-icon6 {
+    background-position: -589px -429px
+}
+
+.wsbs-icon7 {
+    background-position: -519px -74px
+}
+
+.wsbs-icon8 {
+    background-position: -519px -145px
+}
+
+.wsbs-icon9 {
+    background-position: -519px -217px
+}
+
+.wsbs-icon10 {
+    background-position: -517px -287px
+}
+
+.wsbs-icon11 {
+    background-position: -519px -358px
+}
+
+.wsbs-icon12 {
+    background-position: -521px -429px
+}
+
+.wsbs-gzfw-tabs span {
+    border: 1px solid #FFFFFF
+}
+
+.wsbs-gzfw-tabs li.current a span, .wsbs-gzfw-tabs a:hover span {
+    border-color: #C80000 #E0E0E0 #FFFFFF;
+    border-style: solid;
+    border-width: 3px 1px 1px
+}
+
+.wsbs-gzfw-tabs span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #E0E0E0 #FFFFFF #FFFFFF;
+    border-image: none;
+    border-right: 1px solid #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    width: 56px;
+    background-color: #FFF
+}
+
+.wsbs-gzfw-content {
+    border: 1px solid #E0E0E0;
+    height: 52px;
+    margin-top: -1px;
+    overflow: hidden;
+    padding: 9px;
+    position: relative;
+    z-index: 1
+}
+
+.wsbs-gzfw-list {
+    margin: 0;
+    overflow: hidden
+}
+
+.wsbs-gzfw-list li {
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    width: 660px
+}
+
+.wsbs-gzfw-list li a:hover {
+    color: #333;
+    text-decoration: none
+}
+
+.wsbs-gzfw-list li a {
+    color: #333;
+    letter-spacing: -1px
+}
+
+.wsbs-gzfw-list h3 {
+    display: inline;
+    float: left;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin: 0 3px
+}
+
+.bs-md {
+    width: 398px;
+    border: 1px solid #E0E0E0
+}
+
+.bs-md .bs-list {
+    height: 130px;
+    overflow: auto
+}
+
+.bs-list li {
+    float: left;
+    width: 75.6px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden
+}
+
+.tjbs-list li {
+    width: 89.5px
+}
+
+.cj-service-md {
+    width: 288px;
+    border: 1px solid #E0E0E0
+}
+
+.cj-service-md .bd {
+    padding: 5px;
+    height: 140px
+}
+
+.cj-list li {
+    float: left;
+    width: 97px;
+    margin: 3px 5px;
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.lnk-cj-1 {
+    background-position: -935px -20px
+}
+
+.lnk-cj-2 {
+    background-position: -935px -63px
+}
+
+.lnk-cj-3 {
+    background-position: -935px -105px
+}
+
+.lnk-cj-4 {
+    background-position: -936px -146px
+}
+
+.lnk-cj-5 {
+    background-position: -935px -186px
+}
+
+.lnk-cj-6 {
+    background-position: -935px -225px
+}
+
+.lnk-cj-7 {
+    background-position: -935px -267px
+}
+
+.lnk-cj-8 {
+    background-position: -935px -308px
+}
+
+.lnk-cj-9 {
+    background-position: -935px -348px
+}
+
+.lnk-cj-10 {
+    background-position: -935px -389px
+}
+
+.wfw-md {
+    border: 1px solid #E0E0E0;
+    width: 358px
+}
+
+.wfw-bd {
+    height: 130px
+}
+
+.wft-img {
+    float: left;
+    margin: 0;
+    border: 1px solid #CCC;
+    padding: 2px;
+}
+
+.wft-img, .wft-img p, .wft-img img {
+    width: 146px;
+    height: 126px;
+    overflow: hidden
+}
+
+.wfw-tabs {
+    float: right;
+    width: 178px;
+    overflow: hidden
+}
+
+.wfw-tabs li {
+    padding: 0 13px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden
+}
+
+.wfw-tabs li.current {
+    background: #C80000 url(http://www.hubei.gov.cn/images/home2013/home.png) 0 -38px no-repeat;
+    _background: #C80000 url(http://www.hubei.gov.cn/images/home2013/home.gif) 0 -38px no-repeat
+}
+
+.wfw-tabs li.current a:link, .wfw-tabs li.current a:visited, .wfw-tabs li.current a:hover {
+    color: #FFF
+}
+
+.service-tips-md {
+    width: 328px;
+    border: 1px solid #E0E0E0
+}
+
+.green-way-md .hd, .hot-channels-md .hd {
+    float: left;
+    width: 20px;
+    text-align: center;
+    padding: 10px;
+    height: 80px;
+    background-color: #F5F5F5;
+    border-bottom: none;
+    border-right: 2px solid #DDD
+}
+
+.green-way-md .hd-title, .hot-channels-md .hd-title {
+    float: left;
+    padding: 0;
+    height: 80px;
+    line-height: 20px;
+    background: none;
+    border: none;
+    overflow: hidden
+}
+
+.green-way-md .bd, .hot-channels-md .bd {
+    padding: 10px 0;
+    float: left;
+    clear: none
+}
+
+.hot-channels-md .bd{
+	padding:0;
+}
+
+.green-way-list li {
+    float: left;
+    margin-left: 6px;
+    display: inline;
+    width: 59px;
+    height: 80px;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden
+}
+
+.green-way-list a:link, .green-way-list a:visited, .green-way-list a:hover {
+    display: block;
+    margin: 0 auto;
+    padding-top: 55px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden
+}
+
+.lnk-rt {
+    background-position: -749px 0
+}
+
+.lnk-sn {
+    background-position: -661px 0
+}
+
+.lnk-lr {
+    background-position: -749px -83px
+}
+
+.lnk-lm {
+    background-position: -661px -83px
+}
+
+.lnk-fn {
+    background-position: -749px -166px
+}
+
+.lnk-wg {
+    background-position: -661px -166px
+}
+
+.lnk-cj {
+    background-position: -749px -249px
+}
+
+.lnk-jr {
+    background-position: -661px -249px
+}
+
+.lnk-qy {
+    background-position: -749px -332px
+}
+
+.lnk-ld {
+    background-position: -661px -332px
+}
+
+.channel-hd {
+    background: #F5F5F5 url(http://www.hubei.gov.cn/images/home2013/home.png) 120px 1px no-repeat;
+    _background: #F5F5F5 url(http://www.hubei.gov.cn/images/home2013/home.gif) 120px 1px no-repeat;
+    border-color: #f7f1dd
+}
+
+.channel-hd .hd-title {
+    width: 120px;
+    padding: 0;
+    letter-spacing: 3px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #C80000
+}
+
+.channel-hd .hd-title a:link, .channel-hd .hd-title a:visited, .channel-hd .hd-title a:hover {
+    color: #FFF
+}
+
+.interactive-more li {
+    padding-left: 24px;
+    background-repeat: no-repeat
+}
+
+.lnk-sq {
+    background-position: -192px -283px
+}
+
+.lnk-zxft {
+    background-position: -192px -318px
+}
+
+.lnk-dc {
+    background-position: -192px -355px
+}
+
+.lnk-my {
+    background-position: -192px -390px
+}
+
+.lnk-gwy {
+    background-position: -192px -425px
+}
+
+.lnk-er {
+    background-position: -192px -458px
+}
+
+.zxft-md {
+    width: 368px;
+    border: 1px solid #E0E0E0
+}
+
+.fangtan-md {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden
+}
+
+.lastest-ft-photo {
+    float: left;
+    padding: 2px;
+    border: 1px solid #E0E0E0;
+    width: 138px;
+    height: 104px;
+    overflow: hidden
+}
+
+.lastest-twft-photo {
+    float: left;
+    width: 67px;
+    height: 100px;
+    padding: 4px;
+    border: 1px solid #CCC;
+    overflow: hidden
+}
+
+.lastest-fangtan {
+    float: right;
+    color: #535353;
+    width: 194px;
+    height: 110px;
+    overflow: hidden
+}
+
+.lastest-pic-fangtan {
+    width: 261px
+}
+
+.lastest-fangtan h4, .lastest-fangtan li {
+    margin: 0;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden
+}
+
+.past-fangtan-hd {
+    padding: 5px 0;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    clear: both;
+    overflow: hidden
+}
+
+.past-fangtan-hd h3 {
+    float: left;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 12px
+}
+
+.past-fangtan-hd a:link, .past-fangtan-hd a:visited, .past-fangtan-hd a:hover, .jb-hd-more a.current:link, .jb-hd-more a.current:visited, .jb-hd-more a.current:hover {
+    color: #C80000
+}
+
+.past-fangtan-hd span {
+    float: right;
+    margin: 1px 4px;
+    display: inline;
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border: 1px solid #E0E0E0;
+    overflow: hidden
+}
+
+.dc-md, .jb-md {
+    width: 318px;
+    border: 1px solid #E0E0E0
+}
+
+.jb-hd-more a.current:link, .jb-hd-more a.current:visited, .jb-hd-more a.current:hover {
+    font-weight: bold
+}
+
+.jb-list {
+    height: 99px;
+    _height: 96px
+}
+* + html jb-list {
+    height: 97px
+}
+
+.jb-list li {
+    float: left;
+    width: 99.3px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden
+}
+
+.jb-city-list li {
+    float: left;
+    width: 59.6px;
+    text-align: center;
+    overflow: hidden
+}
+
+.officemall-md, .chatonline-md, .quick-search-md, .baike-md, .zs-md, .notes-md, .yj-man-md, .yjsc-md {
+    margin-bottom: 0;
+    width: 248px;
+    border: 1px solid #E0E0E0;
+    border-bottom: none;
+    padding-bottom: 10px
+}
+
+.officemall-md .bd {
+	position:relative;
+	z-index:1;
+    padding-top: 189px;
+    padding-bottom: 0;
+    height: 54px;
+    text-align: center;
+    background: transparent url(http://www.hubei.gov.cn/images/home2013/home.png) 10px -85px no-repeat;
+    _background: transparent url(http://www.hubei.gov.cn/images/home2013/home.gif) 10px -85px no-repeat;
+	overflow:visible;
+}
+
+.officemall-img {
+    float: left;
+    margin: 0 1px;
+    display: inline;
+    width: 112px;
+    height: 54px
+}
+
+#lnk-officemall{
+	position:absolute;
+	z-index:2;
+	top:10px;
+	left:10px;
+	width:226px;
+	height:170px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+.ifr-chatonline {
+    margin: 0 auto;
+    width: 225px;
+    overflow: hidden
+}
+
+.quick-search-md, .yj-man-md {
+    border-top: none
+}
+
+.quick-search-list {
+    overflow: hidden
+}
+
+.quick-search-list li {
+    float: left;
+    margin: 3px;
+    width: 30px;
+    border: 1px solid #E0E0E0;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden
+}
+
+.quick-search-md .ft {
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.quick-search-md .ft, .quick-search-md .ft img {
+    width: 238px;
+    height: 49px
+}
+
+.baike-md, .zs-md, .yjsc-md {
+    margin-bottom: 10px;
+    border-top: none;
+    padding-bottom: 0;
+    border-bottom: 1px solid #E0E0E0
+}
+
+.baike-md .bd {
+    padding-bottom: 6px
+}
+
+.baike-list li {
+    float: left;
+    width: 66px;
+    overflow: hidden
+}
+
+.chatonline-md, .yj-man-md, .notes-md, .yj-man-md {
+    padding-bottom: 0
+}
+
+.chatonline-md .bd, .ifr-chatonline {
+    margin: 0 auto;
+    width: 225px;
+    height: 160px
+}
+
+.zs-md .bd-list {
+    height: 182px
+}
+
+.butty-hubei {
+    margin-bottom: 10px
+}
+
+.butty-hubei-md {
+    margin: 0;
+    width: 388px;
+    height: 324px;
+    border: 1px solid #E0E0E0
+}
+
+.butty-hubei-news li, .butty-hubei-channels li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden
+}
+
+.butty-hubei-news li {
+    float: left;
+    width: 170px;
+    padding: 0 5px 0 9px;
+    overflow: hidden
+}
+
+.butty-hubei-channels h3 {
+    float: left;
+    margin: 0 8px 0 0;
+    display: inline;
+    font-size: 12px
+}
+
+.butty-hubei-channels h3 a:link, .butty-hubei-channels h3 a:visited, .butty-hubei-channels h3 a:hover {
+    color: #C80000
+}
+
+.butty-hubei-slide {
+    position: relative;
+    z-index: 1;
+    border: 1px solid #E0E0E0
+}
+
+.butty-hubei-slide, .butty-hubei-slide-md, .butty-hubei-slide-md .slide-bd, .butty-hubei-slide-md .slide-bd img {
+    width: 558px;
+    height: 324px;
+    overflow: hidden
+}
+
+.butty-hubei-slide-md .slide-ft, .butty-hubei-slide-md .slide-hd {
+    bottom: 70px
+}
+
+.butty-hubei-slide-tabs {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 548px;
+    height: 50px;
+    padding: 10px 5px;
+    background-color: #000;
+    filter: alpha(opacity = 80);
+    opacity: 0.8;
+    overflow: hidden
+}
+
+.butty-hubei-slide-tabs li {
+    float: left;
+    margin: 0 5px;
+    display: inline;
+    border: 2px solid #999;
+    overflow: hidden
+}
+
+.butty-hubei-slide-tabs li, .butty-hubei-slide-tabs img {
+    width: 64px;
+    height: 46px
+}
+
+.butty-hubei-slide-tabs img {
+    filter: alpha(opacity = 70);
+    opacity: 0.7
+}
+
+.butty-hubei-slide-tabs li.current {
+    width: 64px;
+    border-color: #FFF
+}
+
+.butty-hubei-slide-tabs li.current img {
+    filter: alpha(opacity = 100);
+    opacity: 1
+}
+
+.gov-site-links {
+    background-color: #F8F8F8
+}
+
+.gov-site-links .hd {
+    background-color: #F2F2F2
+}
+
+.gov-site-links .hd-title {
+    border: none;
+    background: transparent;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px
+}
+
+.gov-site-links .info-counter-list {
+    margin: 0;
+    height: 100px;
+    border: 1px solid #E0E0E0;
+    overflow: auto
+}
+
+.info-counter-list, .info-counter-list li {
+    list-style-type: none
+}
+
+.info-counter-list li {
+    float: left;
+    width: 120px;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden
+}
+
+.linqu-counter-list li {
+    float: none;
+    width: 250px
+}
+
+.frmsites {
+    height: 100px;
+    overflow: hidden
+}
+
+.frmsites select {
+    float: left;
+    margin: 6px 5px;
+    width: 160px;
+    height: 22px;
+    display: inline;
+    overflow: hidden
+}
+
+.footer {
+    width: 100%;
+    border-top: 10px solid #EDEDED;
+    background-color: #F8F8F8;
+    padding: 15px 0;
+    overflow: visible
+}
+
+.footer .wrap {
+    background: transparent
+}
+
+.bottom-icon {
+    float: left;
+    margin-top: 15px;
+    width: 520px;
+    text-align: center;
+    overflow: hidden
+}
+
+.bottom-icon img {
+    float: left;
+    margin: 0 5px;
+    width: 120px;
+    height: 50px;
+    display: inline
+}
+
+.copyright {
+    float: right;
+    margin: 0;
+    padding: 5px 5px 0 0;
+    text-align: right;
+    width: 560px;
+    overflow: hidden
+}
+
+.footer, .footer a:link, .footer a:visited, .footer a:hover {
+    color: #A1A1A1
+}
+
+.clear {
+    clear: both
+}
+
+.flt-l {
+    float: left
+}
+
+.flt-r {
+    float: right
+}
+
+.mar-b-10 {
+    margin-bottom: 10px
+}
+
+.mar-l-10 {
+    margin-left: 10px
+}
+
+.mar-none {
+    margin: 0
+}
+
+.inline {
+    display: inline
+}
+
+.no-border {
+    border: none
+}
+
+.visible {
+    overflow: visible
+}
+
+.hide, .bdSug_app {
+    display: none
+}
+
+.psas-banner, .psas-banner img {
+    margin: 0 auto 10px;
+    width: 960px !important;
+    height: 47px;
+    overflow: hidden;
+    clear: both
+}
+
+.wsbs-banner, .wsbs-banner img {
+    width: 960px;
+    height: 50px
+}
+
+.xzsp-banner{
+    height:50px;
+}
+
+.xzsp-banner img{
+    width:315px;
+	height:50px;
+}
+
+.tzhb-list li {
+    background: none;
+    padding-left: 0
+}
+
+.lnk-leader, .lnk-mail, .lnk-ft, .lnk-fbh, .lnk-mobile, .lnk-weibo, .projects-more li.lnk-cy-dw, .projects-more li.lnk-cy-ry, .yjsc-list li.tz-sc, .yjsc-list li.ns-sc, .yjsc-list li.mq-sc, .yjsc-list li.hs-sc, .bs-more li.lnk-app, .bs-more li.lnk-100, .bs-more li.lnk-center, .wsbs-icon1, .wsbs-icon2, .wsbs-icon3, .wsbs-icon4, .wsbs-icon5, .wsbs-icon6, .wsbs-icon7, .wsbs-icon8, .wsbs-icon9, .wsbs-icon10, .wsbs-icon11, .wsbs-icon12, .lnk-cj-1, .lnk-cj-2, .lnk-cj-3, .lnk-cj-4, .lnk-cj-5, .lnk-cj-6, .lnk-cj-7, .lnk-cj-8, .lnk-cj-9, .lnk-cj-10, .lnk-rt, .lnk-sn, .lnk-lr, .lnk-lm, .lnk-fn, .lnk-wg, .lnk-cj, .lnk-jr, .lnk-qy, .lnk-ld, .lnk-sq, .lnk-zxft, .lnk-dc, .lnk-my, .lnk-gwy, .lnk-er {
+    background-image: url(http://www.hubei.gov.cn/images/home2013/home.png);
+    _background-image: url(http://www.hubei.gov.cn/images/home2013/home.gif)
+}
+
+.lnk-weixin{
+	background-image: url(http://www.hubei.gov.cn/images/home2013/home_v1.png);
+    _background-image: url(http://www.hubei.gov.cn/images/home2013/home_v1.gif)
+}
+
+/* Wu Jia */
+.wj-md{
+	position:relative;
+	z-index:1;
+	margin:10px auto 0;
+	padding:0;
+	border:none;
+	width:250px;
+	height:68px;
+	background-image:url(http://www.hubei.gov.cn/images/home2013/wj-bg1.png);
+	overflow:hidden;
+}
+
+.wj-md h2{
+	position:absolute;
+	z-index:2;
+	top:4px;
+	left:86px;
+	margin:0;
+	width:120px;
+	height:26px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+.wj-md h2 a:link,.wj-md h2 a:visited,.wj-md h2 a:hover{
+	display:block;
+	width:120px;
+	height:26px;
+	overflow:hidden;
+}
+
+.wj-link-1,
+.wj-link-2{
+	position:absolute;
+	z-index:2;
+	top:33px;
+	margin:0;
+	width:89px;
+	height:24px;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+.wj-link-1{
+	left:55px;
+}
+
+.wj-link-2{
+	left:148px;
+}
+
+/*Side Advs*/
+.side-advs{
+	position:fixed;
+	_position:absolute;
+	z-index:99;
+	top:80px;
+	overflow:visible;
+}
+.side-advs p{
+    margin:0;
+	overflow:hidden;
+}
+.side-advs,.side-advs p,.side-advs img{
+	width:100px;
+	height:290px;
+}
+.side-advs-l{
+	left:10px;
+}
+.side-advs-r{
+	right:10px;
+}
+.cutdown-counter{
+	position:absolute;
+	z-index:100;
+	margin:0;
+	top:116px;
+	left:6px;
+	width:50px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	font-family:Georgia, Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color:#FFDD2B;
+	overflow:hidden;
+}
+.advs-close:link,.advs-close:visited,.advs-close:hover{
+	position:absolute;
+	z-index:11;
+	bottom:-20px;
+	right:0;
+	width:42px;
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	text-align:center;
+	background-color:#C80000;
+	color:#FFF;
+	text-decoration:none;
+	overflow:hidden;
+}
+
+/* Back to Top */
+.lnk-backtop:link, .lnk-backtop:visited, .lnk-backtop:hover {line-height:9999px;background: url(http://www.hubei.gov.cn/images/sprites.gif) no-repeat scroll 0 -204px transparent;bottom: 140px;display: none;height: 35px;left: 50%;margin: 0 0 0 490px;outline: medium none;overflow: hidden;position: fixed;_position:absolute;width: 49px;z-index: 3;}
+.lnk-backtop:hover {background-position: -49px -204px;}
+
+/* CSS3 Style */
+.button{-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;-moz-text-shadow:0 -1px 0 #B25F00;-webkit-text-shadow:0 -1px 0 #B25F00;text-shadow:0 -1px 0 #B25F00;background-image:-moz-linear-gradient(center bottom,#EE7B00,#FF8A00);background-image:-wekit-linear-gradient(center bottom,#EE7B00,#FF8A00);background-image:linear-gradient(center bottom,#EE7B00,#FF8A00)}.button:hover{background-color:#FFA800;background-image:none;-moz-text-shadow:0 -1px 0 #A26B00;-webkit-text-shadow:0 -1px 0 #A26B00;text-shadow:0 -1px 0 #A26B00}.past-fangtan-hd span,.prjects-cities-list li,.projects-other-links li,.quick-search-list li,.cj-list li{-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px}.wft-img,.lastest-ft-photo,.past-fangtan-hd span:hover,.quick-search-list li:hover,.projects-other-links li:hover,.cj-list li:hover{background-color:#F8F8F8;-moz-box-shadow:1px 1px 2px #CCC;-webkit-box-shadow:1px 1px 2px #CCC;box-shadow:1px 1px 2px #CCC}
+
+/* Enshi Channel Banner */
+.enshi_channel{margin:0 auto 10px;height:60px;overflow:hidden;background-image:url(http://www.hubei.gov.cn/images/enshi/enshi_new_banner.jpg);}
+.enshi_channel_link{float:right;width:94px;height:60px;text-indent:-99999px;overflow:hidden;}
+
+/* Homepage Modify (2013-12-26) */
+.jb-list,.bd-jj-list{height:98px;}
+.bd-jj-list li{
+	float:left;
+	width:99px;
+	height:98px;
+	margin:0;
+	padding:0;
+	background:none;
+	text-align:center;
+}
+.bd-jj-list p{
+	margin:0 auto 10px;
+	overflow:hidden;
+}
+.bd-jj-list p,.bd-jj-list img{
+	width:95px;
+	height:64px;
+}

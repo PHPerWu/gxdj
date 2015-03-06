@@ -11,9 +11,152 @@
 <body>
     <form id="form1" runat="server">
     <div>
+    
+<div class="wrap top-navigation w_top first-wrap" id="top-navigation">
+	 <div class="wrap">
+	 <ul class="top-lang-nav">
+	 	 <li class="zw_zw"><a href="image/default/湖北省人民政府门户网站.htm">简体中文版</a></li>
+		 <li><a href="http://en.hubei.gov.cn/">English</a></li>
+		 <li><a href="http://fr.hubei.gov.cn/">Français</a></li>
+		 <li><a href="http://www.hubei.gov.cn/#web-accessibility" id="web-accessibility">无障碍阅读</a></li>
+	 </ul>
+	 <ul class="top-info-nav">
+	 	 <li><a href="http://tg.hubei.gov.cn:8000/wcm/">信息报送</a></li>
+		 <li><a href="http://mail.hubei.gov.cn:8080/">邮箱</a></li>
+		 <li><a href="image/default/湖北省人民政府门户网站.htm" id="lnk-home">设为首页</a></li>
+	 </ul>
+	</div>
+</div>
+<div class="wrap logo">
+     
+</div>
+<div class="wrap main-navigation" id="main-navigation">
+	 <div class="main-nav">
+	 	  <ul class="main-channels visible">
+              <li class="tab">
+              	  
+                  <a href="image/default/湖北省人民政府门户网站.htm" target="_self">首页</a>
+                  
+				  <ul class="sub-menu hide">
+				  	  <li>湖北高校党建研究中心欢迎您! </li>
+				  </ul>
+			  </li>
+			  <li class="tab">
+			  	  
+                  <a href="http://www.hubei.gov.cn/zwgk/zfld/szzc/sld01/" target="_self">中心简介</a>
+                  
+				  <ul class="sub-menu leaders-menu hide">
+                      			
+                      <li><a href="http://www.hubei.gov.cn/zwgk/zfld/szzc/sld01/">中心目标</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/zwgk/zfld/szzc/sld12_1/index.shtml">中心功能</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/zwgk/zfld/szzc/sld03/">中心任务</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/zwgk/zfld/szzc/fszcgj/">管理机制</a></li>
+			      </ul>
+			  </li>
+			  <li class="tab">
+			  	  
+                  <a href="http://www.hubei.gov.cn/hbgk/" target="_self">组织机构</a>
+                  
+				  <ul class="sub-menu intro-menu hide">
+                     			
+                      <li><a href="http://www.hubei.gov.cn/hbgk/zrdl/">领导小组</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/hbgk/lsrw/">运行平台</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/hbgk/index.shtml">专家委员会</a></li>
+                      			
+                     
+                        
+		          </ul>
+			  </li>
+              <li class="tab">
+              	  
+                  <a href="http://www.hubei.gov.cn/zwgk/index.shtml" target="_self">党建研究</a>
+                  
+			      <ul class="sub-menu open-menu hide">
+                      			
+                      <li><a href="http://gkml.hubei.gov.cn/">理论研究</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/zwgk/zfld/szzc/sld01/">实务服务</a></li>
+                      			
+                      <li><a href="http://gkml.hubei.gov.cn/index.htm?classInfoId=974">工作评价</a></li>
+                      			
+                      <li><a href="http://gkml.hubei.gov.cn/index.htm?classInfoId=991">信息采集</a></li>
+                     
+		          </ul>
+			  </li>
+              <li class="tab">
+              	  
+                  <a href="http://www.hubei.gov.cn/wsbs/index.shtml" target="_self">党建动态</a>
+                  
+				  <ul class="sub-menu online-menu hide">
+                       			
+                      <li><a href="http://www.hubei.gov.cn/wsbs/bsfwtis/qc/">时政要闻</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/wsbs/index.shtml">党章党史</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/wsbs/index.shtml">热点关注</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/wsbs/index.shtml">高校风采</a></li>
+                    
+		          </ul>
+			  </li>
+              <li class="tab">
+              	   
+                  <a href="http://www.hubei.gov.cn/gzhd/" target="_self">规章制度</a>
+                  
+				   <ul class="sub-menu inter-menu hide">
+                      			
+                      <li><a href="http://wsxf.hbzw.gov.cn:8001/acceptOutQuery.qd">中心管理办法</a></li>
+                      			
+                      <li><a href="http://www.hubei.gov.cn/gzhd/zxft/">专家委员会章程</a></li>
+                       
+                      	
+		           </ul>
+			  </li>
+              <li class="tab">
+              	   
+                  <a href="http://www.hubei.gov.cn/tzhb/" target="_self">资源共享</a>
+                  
+				 
+			  </li>
+
+
+	 	  </ul>
+
+
+
+
+
+		
+	 </div>
+</div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+          <div class="wrap footer">
+	 <div class="wrap">
+
+	 <p class="bottom-icon" style="width:400px;">
+<a title="网络110 报警服务" href="http://wuhan.cyberpolice.cn/ga/"><img width="120" height="50" alt="网络110 报警服务" src="image/default/net110.jpg"></a>
+<a title="不良信息 举报中心" href="http://net.china.com.cn/index.htm"><img width="120" height="50" alt="不良信息 举报中心" src="image/default/jb.jpg"></a>&nbsp;
+<!--<a href="http://zhanzhang.anquan.org/physical/report/?domain=www.hubei.gov.cn" name="gyHFGOIjQqgpMR880YGafcKEjXw5WOab0zy5FMzIusLZ5f5JJa" ><img height="47" src="...images/zhanzhang.png" alt="安全联盟站长平台" /></a>-->
+	 </p>
+<script type="text/javascript" defer="" async="" src="image/default/piwik.js"></script><script type="text/javascript">                                                                                           document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/18/000/0000/60422363/CA180000000604223630002.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="http://bszs.conac.cn/sitename?method=show&id=085B302CA0945C90E053012819ACCDED" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="image/default/red.png" data-bd-imgshare-binded="1"></a></span><script src="image/default/CA180000000604223630002.js" type="text/javascript"></script><span id="_ideConac"></span>
+	 <div class="copyright">
+          <p>| <a href="http://www.hubei.gov.cn/wzdh/">网站地图</a> |
+            <a href="http://www.hubei.gov.cn/ggdy/ggdb/201402/t20140220_490282.shtml">联系我们</a> |
+            <a href="http://www.hubei.gov.cn/ggdy/ggdb/200810/t20081017_243627.shtml">地理位置</a> |
+            <a href="http://www.hubei.gov.cn/ggdy/ggdb/200810/t20081017_243626.shtml">网站申明</a> |
+          </p>
+          <p>鄂ICP备05011090号-1 电子邮件：<a href="mailto:webmaster@hubei.gov.cn">webmaster@hubei.gov.cn</a></p>
+          <p>湖北省人民政府办公厅主管 湖北日报传媒集团承办 <a title="返回顶部" id="lnk-backtop" class="lnk-backtop" target="_self" href="http://www.hubei.gov.cn/#top">返回顶部</a></p>
+     </div>
+     </div>
+</div>
     </div>
     </form>
 </body>
