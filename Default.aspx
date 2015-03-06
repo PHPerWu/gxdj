@@ -228,7 +228,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptSZYW" runat="server">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+             <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
                     
@@ -256,8 +256,8 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptDZDS" runat="server">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
-            </ItemTemplate>
+             <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
 			   </div>
@@ -281,7 +281,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptRDGZ" runat="server">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -306,7 +306,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptGXFC" runat="server">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -317,8 +317,8 @@
                    <div class="md notes-md" id="third-tabs">
 	 	  	   <div class="hd">
 	 	  	   	    <ul class="hd-tabs">
-	 	  	   	    	<li class="tab first current"><a href="http://www.hubei.gov.cn/zwgk/tzgg/">理论研究</a></li>
-	 	  	   	    	<li class="tab"><a href="http://www.hubei.gov.cn/zwgk/zcsd/">实务服务</a></li>
+	 	  	   	    	<li class="tab first current"><a href="newsList.aspx?newsClass=08">理论研究</a></li>
+	 	  	   	    	<li class="tab"><a href="newsList.aspx?newsClass=09">实务服务</a></li>
 	 	  	   	    </ul>
 	 	  	   </div>
 			   <div class="bd notes-bd" style="height:104px;">
@@ -334,9 +334,9 @@
                     <asp:Parameter DefaultValue="08" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptLLYJ" runat="server">
+            <asp:Repeater ID="rptLLYJ" runat="server" DataSourceID="odsLLYJ">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -352,9 +352,9 @@
                     <asp:Parameter DefaultValue="09" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptSWFW" runat="server">
+            <asp:Repeater ID="rptSWFW" runat="server" DataSourceID="odsSWFW">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -362,7 +362,7 @@
 	 	  </div>
 	 	   <div class="md yj-man-md" id="yj-man">
 	 	  	   <div class="hd">
-	 	  	   	    <h2 class="hd-title"><a href="http://yj.hubei.gov.cn/">工作评价</a></h2>
+	 	  	   	    <h2 class="hd-title"><a href="newsList.aspx?newsClass=10">工作评价</a></h2>
 	 	  	   	    
 	 	  	   </div>
 			   <div class="bd yjgl-bd" style="height:104px;">
@@ -378,9 +378,9 @@
                     <asp:Parameter DefaultValue="10" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptGZPJ" runat="server">
+            <asp:Repeater ID="rptGZPJ" runat="server" DataSourceID="odsGZPJ">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -388,7 +388,7 @@
 	 	  </div>
 	 	   <div class="md yjsc-md" id="yj-cookbook">
 	 	  	   <div class="hd">
-	 	  	   	    <h2 class="hd-title">信息采集</h2>
+	 	  	   	    <h2 class="hd-title"><a href="newsList.aspx?newsClass=11">信息采集</a></h2>
 	 	  	   </div>
 			    <div class="bd yjgl-bd" style="height:124px;">
 			   	    <ul class="bd-list">
@@ -403,9 +403,9 @@
                     <asp:Parameter DefaultValue="11" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptXXCJ" runat="server">
+            <asp:Repeater ID="rptXXCJ" runat="server" DataSourceID="odsXXCJ">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -415,8 +415,8 @@
 		
 	 </div>
 </div>
-	 </div>
-	 </div>
+	 
+	 
    
 <script type="text/javascript" src="image/default/home.min0807.js"></script>
 <script type="text/javascript" src="image/default/scrollWin.js"></script><style>

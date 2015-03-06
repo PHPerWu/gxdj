@@ -1717,7 +1717,9 @@ input.key {
 }
 
 .chatonline-md, .yj-man-md, .notes-md, .yj-man-md {
-    padding-bottom: 0
+    padding-bottom: 0;
+    top: 0px;
+    left: 0px;
 }
 
 .chatonline-md .bd, .ifr-chatonline {

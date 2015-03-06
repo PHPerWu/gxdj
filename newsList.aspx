@@ -10,7 +10,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<div class="wrap container">
+    <div class="wrap container">
 	 <div class="main" id="main" style="height: 1246px;">
 	 	 <p class="current-page">您所在的位置：<a href="image/newsList/新闻列表.htm" target="_self" title="历史人文" class="CurrChnlCls"><asp:Label
     ID="lblTitle" runat="server" Text=""></asp:Label></a></p>
@@ -35,72 +35,108 @@
          </ul> 
 		 <div id="pages-nav" class="pages-nav"></div>
 	 </div>
-	 <div id="third-tabs" class="md notes-md">
-         <div class="hd">
-             <ul class="hd-tabs">
-                 <li class="tab first current"><a href="http://www.hubei.gov.cn/zwgk/tzgg/">理论研究</a></li>
-                 <li class="tab"><a href="http://www.hubei.gov.cn/zwgk/zcsd/">实务服务</a></li>
-             </ul>
-         </div>
-         <div class="bd notes-bd">
-             <ul class="bd-list">
-                 <li><a href="http://www.hbsjg.gov.cn/hubeijiaoguan_xinwenjujiao/2015/02/27/64564d54a9b94aa8b43908a184d7c7c0.html#top">
-                     春节长假期间全省道路交通安全畅通有序</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/tzgg/201501/t20150127_613731.shtml">
-                     2013年度湖北省收费公路统计公报</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/tzgg/201501/t20150120_611529.shtml">
-                     中共湖北省委组织部干部任前公示公告</a></li>
-                 <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201501/t20150101_605286.html">
-                     2014年淘汰落后和过剩产能检查验收公告</a></li>
-             </ul>
-             <ul class="bd-list hide">
-                 <li><a href="http://www.hbsjg.gov.cn/hubeijiaoguan_xinwenjujiao/2015/02/27/64564d54a9b94aa8b43908a184d7c7c0.html#top">
-                     春节长假期间全省道路交通安全畅通有序</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/zcsd/201503/t20150304_623359.shtml">
-                     2015年省委1号文件解读</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/zcsd/201503/t20150303_622420.shtml">
-                     解读《全省出生人口登记管理十二条规定》</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/zcsd/201503/t20150302_621898.shtml">
-                     《湖北生态省建设规划纲要》解读</a></li>
-             </ul>
-         </div>
-     </div>
-     <div id="yj-man" class="md yj-man-md">
-         <div class="hd">
-             <h2 class="hd-title">
-                 <a href="http://yj.hubei.gov.cn/">工作评价</a></h2>
-         </div>
-         <div class="bd yjgl-bd">
-             <ul class="bd-list">
-                 <li><a href="http://www.hbsjg.gov.cn/hubeijiaoguan_xinwenjujiao/2015/02/27/64564d54a9b94aa8b43908a184d7c7c0.html#top">
-                     春节长假期间全省道路交通安全畅通有序</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/yjgl/201503/t20150302_622141.shtml">
-                     六部门发文禁止个人网上发布危险物品信息</a></li>
-                 <li><a href="http://www.hubeisafety.gov.cn/content/content_a.asp?id=10181">
-                     省安监局发布1月份全省安全生产形势分析</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/yjgl/201502/t20150224_619804.shtml">
-                     全省铁路客流高位运行 迎来节后高峰</a></li>
-             </ul>
-         </div>
-     </div>
-     <div id="yj-cookbook" class="md yjsc-md">
-         <div class="hd">
-             <h2 class="hd-title">
-                 信息采集</h2>
-         </div>
-         <div class="bd yjgl-bd" style="height:124px;">
-             <ul class="bd-list">
-                 <li><a href="http://www.hbsjg.gov.cn/hubeijiaoguan_xinwenjujiao/2015/02/27/64564d54a9b94aa8b43908a184d7c7c0.html#top">
-                     春节长假期间全省道路交通安全畅通有序</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/yjgl/201503/t20150302_622141.shtml">
-                     六部门发文禁止个人网上发布危险物品信息</a></li>
-                 <li><a href="http://www.hubeisafety.gov.cn/content/content_a.asp?id=10181">
-                     省安监局发布1月份全省安全生产形势分析</a></li>
-                 <li><a href="http://www.hubei.gov.cn/zwgk/yjgl/201502/t20150224_619804.shtml">
-                     全省铁路客流高位运行 迎来节后高峰</a></li>
-             </ul>
-         </div>
-     </div>
+	 
+           <div class="grid-250 flt-r">
+                   <div class="md notes-md" id="third-tabs">
+	 	  	   <div class="hd">
+	 	  	   	    <ul class="hd-tabs">
+	 	  	   	    	<li class="tab first current"><a href="newsList.aspx?newsClass=08">理论研究</a></li>
+	 	  	   	    	<li class="tab"><a href="newsList.aspx?newsClass=09">实务服务</a></li>
+	 	  	   	    </ul>
+	 	  	   </div>
+			   <div class="bd notes-bd" style="height:104px;">
+			   	    <ul class="bd-list">
+			   	    
+                              <asp:ObjectDataSource ID="odsLLYJ" runat="server" 
+                            OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" 
+                            TypeName="_defaultTableAdapters.显示新闻列表TableAdapter">
+                <SelectParameters>
+                    <asp:Parameter DefaultValue="4" Name="P_显示条数" Type="Decimal" />
+                    <asp:Parameter DefaultValue="" Direction="Output" Name="P_RESULT" 
+                        Type="Object" />
+                    <asp:Parameter DefaultValue="08" Name="P_新闻类型代码" Type="String" />
+                </SelectParameters>
+                        </asp:ObjectDataSource>
+            <asp:Repeater ID="rptLLYJ" runat="server" DataSourceID="odsLLYJ">
+            <ItemTemplate>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+            </ItemTemplate>
+            </asp:Repeater>
+			   	    </ul>
+			   	    <ul class="bd-list hide">
+			   	    	
+                              <asp:ObjectDataSource ID="odsSWFW" runat="server" 
+                            OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" 
+                            TypeName="_defaultTableAdapters.显示新闻列表TableAdapter">
+                <SelectParameters>
+                    <asp:Parameter DefaultValue="4" Name="P_显示条数" Type="Decimal" />
+                    <asp:Parameter DefaultValue="" Direction="Output" Name="P_RESULT" 
+                        Type="Object" />
+                    <asp:Parameter DefaultValue="09" Name="P_新闻类型代码" Type="String" />
+                </SelectParameters>
+                        </asp:ObjectDataSource>
+            <asp:Repeater ID="rptSWFW" runat="server" DataSourceID="odsSWFW">
+            <ItemTemplate>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+            </ItemTemplate>
+            </asp:Repeater>
+			   	    </ul>
+			   </div>
+	 	  </div>
+	 	   <div class="md yj-man-md" id="yj-man">
+	 	  	   <div class="hd">
+	 	  	   	    <h2 class="hd-title"><a href="newsList.aspx?newsClass=10">工作评价</a></h2>
+	 	  	   	    
+	 	  	   </div>
+			   <div class="bd yjgl-bd" style="height:104px;">
+			   	    <ul class="bd-list">
+			   	    
+                              <asp:ObjectDataSource ID="odsGZPJ" runat="server" 
+                            OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" 
+                            TypeName="_defaultTableAdapters.显示新闻列表TableAdapter">
+                <SelectParameters>
+                    <asp:Parameter DefaultValue="4" Name="P_显示条数" Type="Decimal" />
+                    <asp:Parameter DefaultValue="" Direction="Output" Name="P_RESULT" 
+                        Type="Object" />
+                    <asp:Parameter DefaultValue="10" Name="P_新闻类型代码" Type="String" />
+                </SelectParameters>
+                        </asp:ObjectDataSource>
+            <asp:Repeater ID="rptGZPJ" runat="server" DataSourceID="odsGZPJ">
+            <ItemTemplate>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+            </ItemTemplate>
+            </asp:Repeater>
+			   	    </ul>
+			   </div>
+	 	  </div>
+	 	   <div class="md yjsc-md" id="yj-cookbook">
+	 	  	   <div class="hd">
+	 	  	   	    <h2 class="hd-title"><a href="newsList.aspx?newsClass=11">信息采集</a></h2>
+	 	  	   </div>
+			    <div class="bd yjgl-bd" style="height:124px;">
+			   	    <ul class="bd-list">
+			   	    
+                              <asp:ObjectDataSource ID="odsXXCJ" runat="server" 
+                            OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" 
+                            TypeName="_defaultTableAdapters.显示新闻列表TableAdapter">
+                <SelectParameters>
+                    <asp:Parameter DefaultValue="4" Name="P_显示条数" Type="Decimal" />
+                    <asp:Parameter DefaultValue="" Direction="Output" Name="P_RESULT" 
+                        Type="Object" />
+                    <asp:Parameter DefaultValue="11" Name="P_新闻类型代码" Type="String" />
+                </SelectParameters>
+                        </asp:ObjectDataSource>
+            <asp:Repeater ID="rptXXCJ" runat="server" DataSourceID="odsXXCJ">
+            <ItemTemplate>
+              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+            </ItemTemplate>
+            </asp:Repeater>
+			   	    </ul>
+			   </div>
+	 	  </div>
+   
+		
+	 </div>
 </div>
 <script type="text/javascript" src="image/newsList/home.min0807.js"></script>
 <script type="text/javascript" src="image/newsList/scrollWin.js"></script><style>
