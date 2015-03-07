@@ -1,0 +1,64 @@
+﻿div, p, ul, ol, li, dl, dt, dd{margin: 0;padding: 0;list-style: none}
+img {border: 0 none}
+.slide {
+	height:280px;
+	overflow:hidden;
+	width:590px;
+	margin:5px 18px;
+}
+.slide .play {
+	float: left;
+	height: 280px;
+	width: 480px;
+	overflow: hidden;
+	position: relative
+}
+.slide .play ul {
+	position: absolute;
+	top: 0;
+	width:3000px
+}
+.slide .play li {
+	float: left;
+	height: 280px;
+	width: 480px;
+	overflow: hidden
+}
+.slide .tab {
+	float: right;
+	width: 100px;
+	height: 280px;
+	overflow: hidden;
+	clear:right;
+}
+.slide .tab li {
+	width: 100px;
+	height: 52px;
+	margin-bottom: 4px;
+	padding-left: 17px;
+	overflow: hidden;
+	font-size: 0;
+    vertical-align:top;
+}
+.slide .tab li.on {
+	background: url(../Images/slide_arr.gif?v=2) 5px center no-repeat
+}
+.slide .info {
+	color: #fff;
+	height: 25px;
+	background:rgba(0,0,0,0.8);
+	opacity:0.8;
+	line-height:25px;
+	font-size: 13px;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	text-indent:1.2em;
+	overflow: hidden;
+	margin-top:-25px;
+}
+.slide .info a {
+	color: #e58a00;
+	font-size: 13px
+}
+.slide .info a{text-decoration: none}
+.slide .info a:hover {text-decoration: underline}

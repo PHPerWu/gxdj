@@ -1,0 +1,106 @@
+﻿/*******************用于新闻**********************************/
+
+.leftcontent
+{
+    font-size:13px; 
+    text-decoration:none; 
+    color:Black;
+}
+
+.left a:hover
+{
+    color:Red;
+    }
+    
+.left
+{
+    border-bottom-width:1px;
+    border-bottom-style:dashed;
+    border-bottom-color:#C0C0C0;
+    line-height:5px;
+}
+
+.left a
+{
+    font-size:14px;
+    font-family:宋体;
+    color:#434343;
+    }
+
+/***************在线留言相关*******************/
+.msg
+{
+    border:1px solid #ccc;
+    font-family:宋体;
+    font-size:13px;
+    color:#666666;
+    width:650px;
+    }
+ 
+.msgHead
+{
+    background-color:#e3e3e3;
+    }
+  
+.msgHeadTd
+{
+    line-height:35px;
+    padding-left:10px;
+    }
+    
+.msgAskLeft
+{    
+    width:70px;
+    background-color:#eee;
+    text-align:center;
+    border-top:4px solid #cccccc;
+    border-bottom:4px solid #cccccc;
+    }
+
+.msgAskRight
+{    
+    width:580px;
+    height:150px;
+    background-color:white;
+    vertical-align:top;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-indent:2em;     /***空两格***/
+    letter-spacing:1px;   /***字于字之间的间距***/ 
+    line-height:140%;     /***行间距***/
+    border-top:4px solid #cccccc;
+    border-bottom:4px solid #cccccc;
+    }
+    
+.msgAnswerLeft
+{
+    width:70px;
+    background-color:#eee;
+    text-align:center;
+    }
+ 
+.msgAnswerRight
+{
+    width:580px;
+    background-color:white;
+    vertical-align:middle;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-indent:2em;     /***空两格***/
+    letter-spacing:1px;   /***字于字之间的间距***/ 
+    line-height:140%;     /***行间距***/
+    }
+  
+ .qustionAsk
+ {
+     width:650px;
+     margin-top:20px;
+     margin-left:10px;
+     border-top:1px solid Silver;
+     }
+
+
+

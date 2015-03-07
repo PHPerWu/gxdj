@@ -29,7 +29,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptList" runat="server" DataSourceID="odsList">
             <ItemTemplate>
-             <li><a href="http://gkml.hubei.gov.cn/auto5472/auto5473/201502/t20150217_619593.html"></a></li>
+             <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
          </ul> 

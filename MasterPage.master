@@ -113,7 +113,7 @@
 			  </li>
               <li class="tab">
               	   
-                  <a href="newsList.aspx?newsClass=18" target="_self">资源共享</a>
+                  <a href="FuJianList.aspx" target="_self">资源共享</a>
                   
 				 
 			  </li>

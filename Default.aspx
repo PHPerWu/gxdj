@@ -114,29 +114,93 @@
      </asp:ObjectDataSource>
 	 <div class="grid-500 flt-l">
                   <div class="slide-news" id="slide-news">
-     
+     <%
+         _defaultTableAdapters.TA_新闻TableAdapter imgNews = new _defaultTableAdapters.TA_新闻TableAdapter();
+         string title1 = "没有该条新闻";
+         string path1 = "无法加载.jpg";
+         string title2 = "没有该条新闻";
+         string path2= "无法加载.jpg";
+         string title3 = "没有该条新闻";
+         string path3 = "无法加载.jpg";
+         string title4 = "没有该条新闻";
+         string path4 = "无法加载.jpg";
+         string link1 = "#";
+         string link2 = "#";
+         string link3 = "#";
+         string link4 = "#";
+         try
+         {
+              path1 = imgNews.GetimgByID().Rows[0]["图片路径"].ToString();
+              title1 = imgNews.GetimgByID().Rows[0]["新闻标题"].ToString();
+              link1 = "newsShow.aspx?ID="+imgNews.GetimgByID().Rows[0]["新闻ID"].ToString();
+         }
+         catch
+         {
+              path1 = "无法加载.jpg";
+              title1 = "没有该条新闻";
+         }
+
+         try
+         {
+              path2 = imgNews.GetimgByID().Rows[1]["图片路径"].ToString();
+              title2 = imgNews.GetimgByID().Rows[1]["新闻标题"].ToString();
+              link2 = "newsShow.aspx?ID="+imgNews.GetimgByID().Rows[1]["新闻ID"].ToString();
+         }
+         catch
+         {
+              path2 = "无法加载.jpg";
+              title2 = "没有该条新闻";
+         }
+
+         try
+         {
+              path3 = imgNews.GetimgByID().Rows[2]["图片路径"].ToString();
+              title3 = imgNews.GetimgByID().Rows[2]["新闻标题"].ToString();
+              link3 = "newsShow.aspx?ID="+imgNews.GetimgByID().Rows[2]["新闻ID"].ToString();
+         }
+         catch
+         {
+              path3 = "无法加载.jpg";
+              title3 = "没有该条新闻";
+         }
+
+         try
+         {
+              path4 = imgNews.GetimgByID().Rows[3]["图片路径"].ToString();
+              title4 = imgNews.GetimgByID().Rows[3]["新闻标题"].ToString();
+              link4 = "newsShow.aspx?ID="+imgNews.GetimgByID().Rows[3]["新闻ID"].ToString();
+         }
+         catch
+         {
+              path4 = "无法加载.jpg";
+              title4 = "没有该条新闻";
+         }
+          %>
 	 	  	   <div class="slide-md hide">
-	 	  	   	    <h2 class="slide-hd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150305_623933.shtml" target="_blank">十二届全国人大三次会议在京开幕</a></h2>
-	 	  	   	    <p class="slide-bd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150305_623933.shtml" target="_blank"><img src="image/default/W020150305582604218020.jpg" width="558" height="354" border="0"></a></p>
+	 	  	   	    <h2 class="slide-hd"><a href="<%=link1 %>" target="_blank"><%=title1 %></a></h2>
+	 	  	   	    <p class="slide-bd"><a href="<%=link1 %>" target="_blank">
+        
+                            <img width="558px" height="354px" src="<%=path1 %>" /></p>
 					<p class="slide-ft"></p>
 	 	  	   </div>
                            
                            
 	 	  	   <div class="slide-md hide">
-	 	  	   	    <h2 class="slide-hd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150305_623919.shtml" target="_blank">李克强作政府工作报告</a></h2>
-	 	  	   	    <p class="slide-bd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150305_623919.shtml" target="_blank"><img src="image/default/W020150305584342352839.jpg" width="558" height="354" border="0"></a></p>
+	 	  	   	    <h2 class="slide-hd">
+                                <a href="<%=link2 %>" target="_blank"><%=title2%></a></h2>
+	 	  	   	    <p class="slide-bd"><a href="<%=link2%>" target="_blank"><img width="558px" height="354px" src="<%=path2 %>" /></a></p>
 					<p class="slide-ft"></p>
 	 	  	   </div>
                            
 	 	  	   <div class="slide-md">
-	 	  	   	    <h2 class="slide-hd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150304_622995.shtml" target="_blank">全国政协十二届三次会议在京开幕</a></h2>
-	 	  	   	    <p class="slide-bd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150304_622995.shtml" target="_blank"><img src="image/default/W020150304303487675659.jpg" width="558" height="354" border="0"></a></p>
+	 	  	   	    <h2 class="slide-hd"><a href="<%=link3 %>" target="_blank"><%=title3%></a></h2>
+	 	  	   	    <p class="slide-bd"><a href="<%=link3%>" target="_blank"><img width="558px" height="354px" src="<%=path3 %>" /></a></p>
 					<p class="slide-ft"></p>
 	 	  	   </div>
                            
 	 	  	   <div class="slide-md hide">
-	 	  	   	    <h2 class="slide-hd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150302_621434.shtml" target="_blank">希望厨房开学第一餐</a></h2>
-	 	  	   	    <p class="slide-bd"><a href="http://www.hubei.gov.cn/zwgk/zwtpxw/201503/t20150302_621434.shtml" target="_blank"><img src="image/default/W020150302309728867412.jpg" width="558" height="354" border="0"></a></p>
+	 	  	   	    <h2 class="slide-hd"><a href="<%=link4%>" target="_blank"><%=title4%></a></h2>
+	 	  	   	    <p class="slide-bd"><a href="<%=link4%>" target="_blank"><img width="558px" height="354px" src="<%=path4 %>" /></a></p>
 					<p class="slide-ft"></p>
 	 	  	   </div>
                            
@@ -226,9 +290,9 @@
                     <asp:Parameter DefaultValue="12" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptSZYW" runat="server">
+            <asp:Repeater ID="rptSZYW" runat="server" DataSourceID="odsSZYW">
             <ItemTemplate>
-             <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+             <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
                     
@@ -254,9 +318,9 @@
                     <asp:Parameter DefaultValue="13" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptDZDS" runat="server">
+            <asp:Repeater ID="rptDZDS" runat="server" DataSourceID="odsDZDS">
             <ItemTemplate>
-             <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+             <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
               </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -279,9 +343,9 @@
                     <asp:Parameter DefaultValue="14" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptRDGZ" runat="server">
+            <asp:Repeater ID="rptRDGZ" runat="server" DataSourceID="odsRDGZ">
             <ItemTemplate>
-              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -304,9 +368,9 @@
                     <asp:Parameter DefaultValue="15" Name="P_新闻类型代码" Type="String" />
                 </SelectParameters>
                         </asp:ObjectDataSource>
-            <asp:Repeater ID="rptGXFC" runat="server">
+            <asp:Repeater ID="rptGXFC" runat="server" DataSourceID="odsGXFC">
             <ItemTemplate>
-              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -336,7 +400,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptLLYJ" runat="server" DataSourceID="odsLLYJ">
             <ItemTemplate>
-              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -354,7 +418,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptSWFW" runat="server" DataSourceID="odsSWFW">
             <ItemTemplate>
-              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -380,7 +444,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptGZPJ" runat="server" DataSourceID="odsGZPJ">
             <ItemTemplate>
-              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
@@ -405,7 +469,7 @@
                         </asp:ObjectDataSource>
             <asp:Repeater ID="rptXXCJ" runat="server" DataSourceID="odsXXCJ">
             <ItemTemplate>
-              <li><a href="newsShow.aspx?newsID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
+              <li><a href="newsShow.aspx?ID=<%#Eval("新闻ID") %>"><%#Eval("新闻标题") %></a></li>
             </ItemTemplate>
             </asp:Repeater>
 			   	    </ul>
