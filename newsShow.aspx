@@ -37,7 +37,8 @@
 
 <div class="wrap container">
 	 <div class="main" id="main">
-	 	 <p class="current-page">您所在的位置：<a href="http://www.hubei.gov.cn/hbgk/lsrw/" target="_self" title="历史人文" class="CurrChnlCls">历史人文</a></p>
+	 	 <p class="current-page">您所在的位置：<asp:Label
+    ID="lblClass" runat="server" Text=""></asp:Label></p>
 <!--titlestart-->		 
 		 <h1 class="gov-news-title" id="tts-title">
         <asp:Label ID="lblTitle" runat="server" Text="无标题新闻"></asp:Label></h1>
